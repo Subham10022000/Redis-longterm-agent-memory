@@ -1,0 +1,12 @@
+[project]
+name = "agentic-longterm-memory"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "langchain[mistral,mistralai]>=1.2.10",
+    "langgraph>=1.0.10",
+    "redis>=7.2.1",
+    "redisvl>=0.3.9",
+]
